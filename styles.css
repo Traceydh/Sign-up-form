@@ -1,6 +1,7 @@
 /*Variables*/
 :root {
     --logo-size: 3rem;
+    --blue-color: rgb(146, 218, 247);
 }
 
 
@@ -22,7 +23,7 @@
     background-position: center center;
     height: 100vh;
     width: 50rem;
-    color: white;
+    color: var(--blue-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +31,7 @@
 }
 
 .opaque-background {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     font-family: 'Lobster', cursive;
     letter-spacing: 4px;
     font-size: var(--logo-size);
@@ -94,7 +95,7 @@ input {
 input:focus {
     outline: none;
     box-shadow: 0 0 0.5rem #719ECE;
-    border-color: rgb(14, 120, 161);
+    border-color: var(--blue-color);
 
 }
 
@@ -113,9 +114,21 @@ a:link {
 }
 
 a:visited {
-    color: white;
+    color: var(--blue-color)
 }
 
 a:hover {
-    color:rgb(14, 120, 161);
+    color: white;
+}
+
+/*Button Styling*/
+button {
+    width: 12rem;
+    font-size: 1.2rem;
+    background-color: var(--blue-color);
+    color: white;
+    border-style: none;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    cursor:pointer;
 }
