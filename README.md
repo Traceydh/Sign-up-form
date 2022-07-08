@@ -3,4 +3,4 @@ The Odin Project Intermediate HTML and CSS. Project Sign Up Form: a sign up form
 
 For the creation of this form I focused on implementing all the new CSS and HTML techniques I've learnt so far.
 
-check it out [here] (https://traceydh.github.io/Sign-up-form/) 
+check it out [here](https://traceydh.github.io/Sign-up-form/) 
