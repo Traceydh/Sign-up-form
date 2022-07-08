@@ -91,6 +91,12 @@ input {
     font-size: 1.1rem;
 }
 
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #719ECE;
+    border-color: rgb(14, 120, 161);
+
+}
 
 .detail-container {
     display: flex;
