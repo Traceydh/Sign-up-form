@@ -56,7 +56,16 @@
 }
 
 .form-container {
-    border: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side, .right-side {
+    width: 40%;
+}
+
+input {
+    width: 100%;
 }
 
 .detail-container {
